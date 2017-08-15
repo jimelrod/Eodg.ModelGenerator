@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Eodg.ModelCreator": {
+      "commandName": "Project",
+      "commandLineArgs": "-c \"Server=eodgroup.cswx8lb29ddc.us-east-1.rds.amazonaws.com; Database=RxTracker; User Id=jimelrod; Password=unclejim32\" -o c:\\source\\output -n testing"
+    }
+  }
+}
