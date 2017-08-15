@@ -32,4 +32,4 @@ msbuild.wrn
 .vs/
 
 # Properties folder
-Properties
+Properties/
