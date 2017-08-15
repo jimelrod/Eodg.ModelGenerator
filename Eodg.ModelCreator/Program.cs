@@ -103,7 +103,7 @@ namespace Eodg.ModelCreator
             if (result.HasErrors)
             {
                 Console.WriteLine("Invalid syntax.");
-                Console.WriteLine("Proper usage: `dotnet Eodg.ModelCreator.dll -c <connection string> -o <output directory> -n <namespace>");
+                Console.WriteLine("Proper usage: `dotnet Eodg.ModelCreator.dll -c <connection string> -o <output directory> -n <namespace>`");
                 Environment.Exit(0);
             }
         }

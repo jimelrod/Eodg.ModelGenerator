@@ -1,4 +1,7 @@
-﻿SELECT 
+﻿-- Courtesy https://stackoverflow.com/questions/11056141/how-to-generate-model-from-database-using-dapper/11640838#11640838
+-- With minor modification
+
+SELECT 
 'public ' + a1.NewType + ' ' + a1.ColumnName + ';' as PropertyDefinition
 ,*
  FROM 
